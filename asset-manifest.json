@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/step-react-hw-4/static/css/main.e6c13ad2.css",
+    "main.js": "/step-react-hw-4/static/js/main.f60b0c35.js",
+    "index.html": "/step-react-hw-4/index.html",
+    "main.e6c13ad2.css.map": "/step-react-hw-4/static/css/main.e6c13ad2.css.map",
+    "main.f60b0c35.js.map": "/step-react-hw-4/static/js/main.f60b0c35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f60b0c35.js"
+  ]
+}
