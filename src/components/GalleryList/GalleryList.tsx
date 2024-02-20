@@ -22,12 +22,10 @@ const GalleryItem: FC<IGalleryItem> = ({
 
 export const GalleryList: FC<IGalleryList> = ({ data }) => {
   return (
-    <div className="container">
-      <ul className="gallery-list">
-        {data.map(card => (
-          <GalleryItem key={card.id} {...card} />
-        ))}
-      </ul>
-    </div>
+    <ul className="gallery-list">
+      {data.map(card => (
+        <GalleryItem key={card.id} {...card} />
+      ))}
+    </ul>
   );
 };

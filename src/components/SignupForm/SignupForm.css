@@ -1,0 +1,21 @@
+.signup-form {
+  position: relative;
+  width: 400px;
+}
+
+.signup-form__input {
+  border-bottom: 1px solid #333333;
+}
+
+.signup-form__input {
+  width: 100%;
+  color: #626262;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.signup-form__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -16,13 +16,20 @@ export const Footer = () => {
             <p>Terms and conditions</p>
             <p>Privacy</p>
           </div>
-          <ul className="social">
-            {socialLinks.map((link, index) => (
-              <li className="social__item" key={index}>
-                <SocialIconButton id={link.id} name={link.alt} url={link.url} />
-              </li>
-            ))}
-          </ul>
+          <div className="copyright">
+            <p>Follow</p>
+            <ul className="social">
+              {socialLinks.map((link, index) => (
+                <li className="social__item" key={index}>
+                  <SocialIconButton
+                    id={link.id}
+                    name={link.alt}
+                    url={link.url}
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

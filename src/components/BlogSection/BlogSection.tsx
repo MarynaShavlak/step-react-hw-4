@@ -8,9 +8,11 @@ export const BlogSection = () => {
     console.log('load more logic');
   };
   return (
-    <>
-      <GalleryList data={blogData} />
-      <LoadMoreBtn onBtnClick={onLoadMore} />
-    </>
+    <section className="section--blog">
+      <div className="container">
+        <GalleryList data={blogData} />
+        <LoadMoreBtn onBtnClick={onLoadMore} />
+      </div>
+    </section>
   );
 };

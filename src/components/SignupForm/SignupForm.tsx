@@ -11,8 +11,9 @@ export const SignupForm = () => {
   };
 
   return (
-    <div>
+    <div className="signup-form">
       <input
+        className="signup-form__input"
         type="email"
         placeholder="Enter a valid email address"
         value={email}
@@ -20,7 +21,7 @@ export const SignupForm = () => {
           setEmail(e.target.value)
         }
       />
-      <button onClick={handleAddClick}>
+      <button className="signup-form__btn" onClick={handleAddClick}>
         <img src={sendIcon} alt="icpn of plane" />{' '}
       </button>
     </div>
