@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/step-react-hw-4/static/css/main.38b633a0.css",
-    "main.js": "/step-react-hw-4/static/js/main.bfeba023.js",
+    "main.css": "/step-react-hw-4/static/css/main.6f1e6f61.css",
+    "main.js": "/step-react-hw-4/static/js/main.36a49b5b.js",
     "static/media/hero.png": "/step-react-hw-4/static/media/hero.0118c30153c4a4a9d11d.png",
     "static/media/blog-1.png": "/step-react-hw-4/static/media/blog-1.1d7d29b89d50cf227961.png",
     "static/media/gallery-2.png": "/step-react-hw-4/static/media/gallery-2.9e07dd36fd3ef8ce0304.png",
@@ -10,11 +10,11 @@
     "static/media/gallery-4.png": "/step-react-hw-4/static/media/gallery-4.525e4e1adaf652ef904c.png",
     "static/media/gallery-3.png": "/step-react-hw-4/static/media/gallery-3.9be76246c07e240d85f9.png",
     "index.html": "/step-react-hw-4/index.html",
-    "main.38b633a0.css.map": "/step-react-hw-4/static/css/main.38b633a0.css.map",
-    "main.bfeba023.js.map": "/step-react-hw-4/static/js/main.bfeba023.js.map"
+    "main.6f1e6f61.css.map": "/step-react-hw-4/static/css/main.6f1e6f61.css.map",
+    "main.36a49b5b.js.map": "/step-react-hw-4/static/js/main.36a49b5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.38b633a0.css",
-    "static/js/main.bfeba023.js"
+    "static/css/main.6f1e6f61.css",
+    "static/js/main.36a49b5b.js"
   ]
 }
