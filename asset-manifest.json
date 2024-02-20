@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/step-react-hw-4/static/css/main.f58e4ce3.css",
-    "main.js": "/step-react-hw-4/static/js/main.dee42230.js",
+    "main.js": "/step-react-hw-4/static/js/main.c4d14c16.js",
     "static/media/hero.png": "/step-react-hw-4/static/media/hero.0118c30153c4a4a9d11d.png",
     "static/media/blog-1.png": "/step-react-hw-4/static/media/blog-1.1d7d29b89d50cf227961.png",
     "static/media/gallery-2.png": "/step-react-hw-4/static/media/gallery-2.9e07dd36fd3ef8ce0304.png",
@@ -11,10 +11,10 @@
     "static/media/gallery-3.png": "/step-react-hw-4/static/media/gallery-3.9be76246c07e240d85f9.png",
     "index.html": "/step-react-hw-4/index.html",
     "main.f58e4ce3.css.map": "/step-react-hw-4/static/css/main.f58e4ce3.css.map",
-    "main.dee42230.js.map": "/step-react-hw-4/static/js/main.dee42230.js.map"
+    "main.c4d14c16.js.map": "/step-react-hw-4/static/js/main.c4d14c16.js.map"
   },
   "entrypoints": [
     "static/css/main.f58e4ce3.css",
-    "static/js/main.dee42230.js"
+    "static/js/main.c4d14c16.js"
   ]
 }
