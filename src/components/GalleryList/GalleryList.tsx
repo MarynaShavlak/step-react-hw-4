@@ -11,19 +11,23 @@ const GalleryItem: FC<IGalleryItem> = ({
   <li className="card">
     <a href="./project-page.html">
       <img src={img} alt="card img" className="card__img" />
-      <p className="card__category">{category}</p>
-      <h3 className="card__title">{title}</h3>
-      <p className="card__description">{description}</p>
+      <div className="card__wrap">
+        <p className="card__category">{category}</p>
+        <h3 className="card__title">{title}</h3>
+        <p className="card__description">{description}</p>
+      </div>
     </a>
   </li>
 );
 
 export const GalleryList: FC<IGalleryList> = ({ data }) => {
   return (
-    <ul className="projects">
-      {data.map(card => (
-        <GalleryItem key={card.id} {...card} />
-      ))}
-    </ul>
+    <div className="container">
+      <ul className="gallery-list">
+        {data.map(card => (
+          <GalleryItem key={card.id} {...card} />
+        ))}
+      </ul>
+    </div>
   );
 };

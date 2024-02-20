@@ -10,12 +10,10 @@ export const Lifestyle = () => {
     <>
       <Header />
       <main className="section">
-        <div className="container">
-          <GalleryInfo />
-          <GalleryList data={galleryData} />
-          <SignupSection />
-          <BlogSection />
-        </div>
+        <GalleryInfo />
+        <GalleryList data={galleryData} />
+        <SignupSection />
+        <BlogSection />
       </main>
     </>
   );

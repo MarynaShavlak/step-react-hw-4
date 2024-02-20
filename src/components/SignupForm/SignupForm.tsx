@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './SignupForm.css';
+import sendIcon from './../../images/send-icon.png';
 
 export const SignupForm = () => {
   const [email, setEmail] = useState<string>('');
@@ -19,7 +20,9 @@ export const SignupForm = () => {
           setEmail(e.target.value)
         }
       />
-      <button onClick={handleAddClick}>send</button>
+      <button onClick={handleAddClick}>
+        <img src={sendIcon} alt="icpn of plane" />{' '}
+      </button>
     </div>
   );
 };
